@@ -1,0 +1,12 @@
+int arr[] = {1, 3, 5, 7, 9};
+int l = 0;
+int r = 5;
+int mid = 0;
+while (l < r) {
+    mid = (l + r) / 2;
+    if (arr[mid] < 6) {
+        l = mid + 1
+    } else {
+        r = mid
+    }
+}
